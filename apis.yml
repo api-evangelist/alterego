@@ -1,7 +1,28 @@
 aid: alterego
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alterego.png
 name: Alterego
-description: Alterego is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Alterego is a Boston-based startup, spun out of the MIT Media Lab in 2025,
+  building a near-telepathic silent-speech interface: a minimal, non-invasive
+  wearable that detects the faint neuromuscular signals produced when a person
+  internally verbalizes words, letting them interact with AI and computers
+  without typing, tapping, or speaking aloud. Its "Silent Sense" technology
+  responds only to intentional internal speech, keeping private thoughts private
+  while enabling hands-free, screen-free messaging, queries, and information
+  access. The company is pre-launch, backed by investors including Canaan,
+  Granite Ventures, Mayfield, Rembrandt Venture Partners, and Cisco Investments.
+  As of this profile Alterego publishes no public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/alterego/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +35,41 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- Wearables
+- Silent Speech
+- Human-Computer Interaction
+- Neural Interface
+- Consumer Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/alterego-domain-security.yml
+- type: Website
+  url: https://www.alterego.io/
+- type: PrivacyPolicy
+  url: https://www.alterego.io/privacy
+- type: TermsOfService
+  url: https://www.alterego.io/terms
+- type: Careers
+  url: https://www.alterego.io/careers
+- type: PressKit
+  url: https://docsend.com/view/s/dmda8mqzhcvqrkrk
+- type: LinkedIn
+  url: https://www.linkedin.com/company/alteregoio/
+- type: X
+  url: https://x.com/alterego_io
+- type: Instagram
+  url: https://www.instagram.com/alterego_io/
+- type: TikTok
+  url: https://www.tiktok.com/@alterego_io
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
