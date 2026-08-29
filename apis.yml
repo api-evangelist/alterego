@@ -35,6 +35,9 @@ description: >-
   Granite Ventures, Mayfield, Rembrandt Venture Partners, and Cisco Investments.
   As of this profile Alterego publishes no public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/alterego/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "As of this profile Alterego publishes no public API or developer platform."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
